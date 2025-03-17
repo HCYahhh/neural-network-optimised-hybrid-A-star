@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from scipy.spatial import KDTree
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) +
-                "/../../MotionPlanning/")
+                "/../../neural network optimised hybrid A-star/")
 
 import HybridAstarPlanner.astar as astar
 import HybridAstarPlanner.draw as draw
